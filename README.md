@@ -22,8 +22,8 @@ A modern email management application built with Next.js that helps you organize
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd email-ai-app
+git clone https://github.com/AveekGoyal/inbox-ai.git
+cd inbox-ai
 ```
 
 2. Install dependencies:
