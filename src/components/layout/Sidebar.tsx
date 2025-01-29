@@ -12,7 +12,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'Dashboard', href: '/', icon: HomeIcon },
+  { name: 'Dashboard', href: '/dashboard', icon: HomeIcon },
   { name: 'Email Summaries', href: '/summaries', icon: InboxIcon },
   { name: 'AI Chat', href: '/chat', icon: ChatBubbleLeftRightIcon },
   { name: 'Analytics', href: '/analytics', icon: ChartBarIcon },
