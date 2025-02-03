@@ -1,5 +1,5 @@
 import { Navbar } from './Navbar';
-import { Hero } from './Hero';
+import { HeroGeometric } from '@/components/ui/shape-landing-hero';
 import { Features } from './Features';
 import { Testimonials } from './Testimonials';
 import { Footer } from './Footer';
@@ -9,7 +9,11 @@ export function LandingPage() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-1">
-        <Hero />
+        <HeroGeometric 
+          badge="AI Email Assistant"
+          title1="Your Inbox,"
+          title2="Organized by Time"
+        />
         <Features />
         <Testimonials />
       </main>

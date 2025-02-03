@@ -24,6 +24,8 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.75rem;
+    --gap: 1rem;
+    --duration: 10s;
   }
 
   .dark {
@@ -57,6 +59,10 @@
   .animate-glow {
     animation: glow 2s ease-in-out infinite alternate;
   }
+
+  .animate-marquee {
+    animation: marquee var(--duration) linear infinite;
+  }
 }
 
 @keyframes float {
@@ -81,6 +87,15 @@
     box-shadow: 0 0 20px rgba(14, 165, 233, 0.6),
                 0 0 30px rgba(14, 165, 233, 0.6),
                 0 0 40px rgba(14, 165, 233, 0.6);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-30%);
   }
 }
 
